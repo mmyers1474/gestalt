@@ -1,0 +1,155 @@
+TODO:
+    Full keybind system
+    lastpass plugin
+    baseline plugin
+
+
+
+Windows:  
+    Desktop:
+    Operations:
+    Workspace:
+    Background:
+
+R&D
+    Research
+    Conceptualization
+    
+Docks    
+Laboratory
+Plant
+
+Operation Flag:
+    C   client
+    S   session
+    W   window
+    P   panes
+    L   layout
+    B   buffers
+    K   key bindings
+    O   options
+    
+Function Dispatcher
+    F1
+    F2
+    F3
+    F4
+    F5
+    F6
+    F7
+    F8
+    F9
+    F10
+    F11
+    F12
+
+Function dispatcher checks the operation flag and then calls the appropriate function for
+the flagged operation.
+
+F1      Help System
+F1      Display the function key assignnents
+F2      Display the server key assignments
+F3      Display the client key assignments
+F4      Display the session key assignments
+F5      Display the window key assignments
+F6      Display the panes key assignments
+F7      Display the layout key assignments
+F8      Display the buffers key assignments
+F9      Display the binding key assignments
+F10     Display the misc key assignments
+F11     Display the option toggle key assignments
+
+F2      Server
+ss      start-server
+si      server-info
+ls      lock-server
+ks      kill-server
+    
+F3      Client
+ls      list-clients
+rc      refresh-client
+sw      switch-client
+sc      suspend-client
+dc      detach-client
+lc      lock-client
+    
+F4      Session
+ns      new-session
+ls      list-sessions
+as      attach-session
+rs      rename-session
+lk      lock-session
+ks      kill-session
+    
+F5      Windows
+nw      new-window
+se      select-window
+cw      choose-window
+rw      rename-window
+ro      rotate-window
+sw      swap-window
+mw      move-window
+nw      next-window
+pw      previous-window
+lw      last-window
+ls      list-windows
+fw      find-window
+ln      link-window
+ul      unlink-window
+kw      kill-window
+rs      respawn-window
+sp      split-window
+    
+F6      Panes
+lp      list-panes
+dp      display-panes
+bp      break-pane
+jp      join-pane
+sp      select-pane
+sw      swap-pane
+rp      resize-pane
+pp      pipe-pane
+cp      capture-pane
+kp      kill-pane
+    
+F7      Layouts
+sl      select-layout
+nl      next-layout
+pl      previous-layout
+    
+F8      Buffers
+ch      clear-history
+lb      list-buffers
+    
+F9      Key Bindings
+bk      bind-key
+uk      unbind-key
+lk      list-keys
+sk      send-keys
+sp      send-prefix
+    
+F10     Misc
+lc      list-commands
+sm      show-messages
+sf      source-file
+rs      run-shell 
+cc      choose-client
+cs      choose-session
+    
+F11     Options (toggles)
+dd      detach-on-destroy
+se      set-remain-on-exit
+st      status
+va      visual-activity
+vb      visual-bell
+vc      visual-content
+ag      aggressive-resize
+ar      automatic-rename
+mm      mode-mouse
+ma      monitor-activity
+re      remain-on-exit
+sp      synchronize-panes
+as      alternate-screen
+ut      utf8
+
+
